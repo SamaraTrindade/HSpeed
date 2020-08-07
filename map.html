@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="médico, emergência, hospital, saúde, mobilidade, criança, pediatra, pediatria" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>SINTOMAS</title>
+
+    <!-- Custom fonts for this template-->
+    <link href="vendor/fontawesome-free/css/all.css" rel="stylesheet" type="text/css">
+
+    <!-- Page level plugin CSS-->
+    <link href="vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet">
+
+    <!-- Custom styles for this template-->
+    <link href="css/sb-admin.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+
+</head>
+
+<body id="page-top">
+
+    <nav class="navbar navbar-expand navbar-dark bg-dark static-top">
+
+        <a class="navbar-brand mr-1" href="index.html">HSpeed++</a>
+
+        <!-- Navbar -->
+        <ul class="navbar-nav ml-auto ml-md-0">
+            <li class="nav-item dropdown no-arrow mx-1">
+                <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fas fa-angle-down"></i>
+                </a>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="alertsDropdown">
+                    <a class="dropdown-item" href="index.html">Home</a>
+                    <a class="dropdown-item" href="map.html">Mapa</a>
+                    <a class="dropdown-item" href="emergency.html">Emergência</a>
+                    <div class="dropdown-divider"></div>
+                    <a id="btnLogout" class="dropdown-item">Sair</a>
+                </div>
+            </li>
+        </ul>
+
+    </nav>
+
+    <div class="container">
+        <div class="row mt-3">
+            <div class="col-xl-3 col-sm-6">
+                <div class="card text-white bg-warning o-hidden h-100">
+                    <div class="card-body">
+                        <div class="card-body-icon">
+                            <i class="far fa-hospital"></i>
+                        </div>
+                        <a class="mr-5" href="emergency.html">
+                            <h3>Encontrar unidades próximas por meio de:</h3>
+                        </a>
+                        <select id=UnitsEmer>
+              <option>CEP</option>
+              <option selected>GPS/Localização atual</option>
+            </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xl-6 mt-3" id="divMap">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d14702.14740851512!2d-43.20546827549914!3d-22.89356132093285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1shospital!5e0!3m2!1spt-BR!2sbr!4v1571584519690!5m2!1spt-BR!2sbr" frameborder="0"
+                    style="border:0;" allowfullscreen="" style="width: 100%;height: 100%;"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Core plugin JavaScript-->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Page level plugin JavaScript-->
+    <script src="vendor/chart.js/Chart.min.js"></script>
+    <script src="vendor/datatables/jquery.dataTables.js"></script>
+    <script src="vendor/datatables/dataTables.bootstrap4.js"></script>
+
+    <!-- Custom scripts for all pages-->
+    <script src="js/sb-admin.min.js"></script>
+
+    <!-- Demo scripts for this page-->
+    <script src="js/scripts.js"></script>
+
+</body>
+
+</html>
